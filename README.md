@@ -1,4 +1,4 @@
-# SkinYoinker
+# Skin Yoinker
 
 [![Repo Size](https://img.shields.io/github/repo-size/DankDumpster/SkinYoinker)](https://github.com/DankDumpster/SkinYoinker) 
 [![GitHub top language](https://img.shields.io/github/languages/top/DankDumpster/SkinYoinker)](https://github.com/DankDumpster/SkinYoinker)
