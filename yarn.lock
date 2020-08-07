@@ -9902,6 +9902,19 @@ sisteransi@^1.0.4:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
+skinview-utils@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/skinview-utils/-/skinview-utils-0.5.6.tgz#972e0179d1c77646759d551edb011be0c82bc023"
+  integrity sha512-TkpkCkLHNmeltUrtmkMexS/6izDE6LD9VKrvEnKvAqByKcymiwfhFydzTCe1vsarnZK1VPtDbAvBh9/n6UkDLg==
+
+skinview3d@^2.0.0-alpha.6:
+  version "2.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/skinview3d/-/skinview3d-2.0.0-alpha.6.tgz#e33eead461a9eed1b17ac99b94a2e0b0b44e4243"
+  integrity sha512-5ekNrX3ePoLZGhVxzJdOewPyNCJNkFcPmZoK4vpXTGjQFFqe5jkAzggk4miJtQiW9RWLDjG+Uo3GsIpNNQ6wsQ==
+  dependencies:
+    skinview-utils "^0.5.6"
+    three "^0.118.3"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -10508,6 +10521,11 @@ text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+three@^0.118.3:
+  version "0.118.3"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.118.3.tgz#c0bf8c10a68155478f12f4ccac2ff979526a4a0a"
+  integrity sha512-ijECXrNzDkHieoeh2H69kgawTGH8DiamhR4uBN8jEM7VHSKvfTdEvOoHsA8Aq7dh7PHAxhlqBsN5arBI3KixSw==
 
 throat@^4.0.0:
   version "4.1.0"
