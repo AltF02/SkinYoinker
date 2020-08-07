@@ -32,10 +32,10 @@ async function getUserId(name: string): Promise<AxiosResponse<getUser>> {
 }
 
 async function getUserSkinUrl(name: string): Promise<string> {
-    let user = await getUserId(name);
-    let user_uid = user.data['id'];
+    const user = await getUserId(name);
 
-    let user_profile: AxiosResponse<userProfile> = await axios.get(cors_api_url + 'https://sessionserver.mojang.com/session/minecraft/profile/' + user_uid)
+    let user_profile: AxiosResponse<userProfile> =
+        await axios.get(cors_api_url + 'https://sessionserver.mojang.com/session/minecraft/profile/' + user.data['id'])
     let properties: userProperties = JSON.parse(atob(user_profile.data['properties'][0]['value']))
 
     return properties['textures']['SKIN']['url'].replace('http://', 'https://')

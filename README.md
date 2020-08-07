@@ -1,44 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SkinYoinker
 
-## Available Scripts
 
-In the project directory, you can run:
+## Usage
 
-### `yarn start`
+SkinYoinker is a site to grab anyone's skin in minecraft, for more information on how to use it visit [the wiki"](https://github.com/DankDumpster/SkinYoinker/wiki)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Run it locally
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[`yarn`](https://yarnpkg.com/en/)
+```sh
+yarn start
+```
+or
+[`npm`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally)
+```sh
+npm run start
+```
 
-### `yarn test`
+## Build it
+[`yarn`](https://yarnpkg.com/en/)
+```sh
+yarn build
+```
+or
+[`npm`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally)
+```sh
+npm run	build
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
 
-### `yarn build`
+- [axios](https://ghub.io/axios): Promise based HTTP client for the browser and node.js
+- [cra-template-typescript](https://ghub.io/cra-template-typescript): The base TypeScript template for Create React App.
+- [node](https://ghub.io/node): node
+- [node-sass](https://ghub.io/node-sass): Wrapper around libsass
+- [react](https://ghub.io/react): React is a JavaScript library for building user interfaces.
+- [react-dom](https://ghub.io/react-dom): React package for working with the DOM.
+- [react-router-dom](https://ghub.io/react-router-dom): DOM bindings for React Router
+- [react-scripts](https://ghub.io/react-scripts): Configuration and scripts for Create React App.
+- [react-skinview3d](https://ghub.io/react-skinview3d): A React component for skinview3d Minecraft viewer
+- [semantic-ui-css](https://ghub.io/semantic-ui-css): CSS Only distribution of Semantic UI
+- [semantic-ui-react](https://ghub.io/semantic-ui-react): The official Semantic-UI-React integration.
+- [three](https://ghub.io/three): JavaScript 3D library
+- [typescript](https://ghub.io/typescript): TypeScript is a language for application scale JavaScript development
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dev Dependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [@types/axios](https://ghub.io/@types/axios): Stub TypeScript definitions entry for axios, which provides its own types definitions
+- [@types/react](https://ghub.io/@types/react): TypeScript definitions for React
+- [@types/react-dom](https://ghub.io/@types/react-dom): TypeScript definitions for React (react-dom)
+- [@types/react-router-dom](https://ghub.io/@types/react-router-dom): TypeScript definitions for React Router
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MIT](https://github.com/DankDumpster/SkinYoinker/LICENSE)
