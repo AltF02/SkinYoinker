@@ -3,7 +3,7 @@
 
 ## Usage
 
-SkinYoinker is a site to grab anyone's skin in minecraft, for more information on how to use it visit [the wiki"](https://github.com/DankDumpster/SkinYoinker/wiki)
+SkinYoinker is a site to grab anyone's skin in minecraft, for more information on how to use it visit [the wiki](https://github.com/DankDumpster/SkinYoinker/wiki)
 
 ## Run it locally
 
