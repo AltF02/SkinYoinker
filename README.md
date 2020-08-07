@@ -1,5 +1,9 @@
 # SkinYoinker
 
+[![Repo Size](https://img.shields.io/github/repo-size/DankDumpster/SkinYoinker)](https://github.com/DankDumpster/SkinYoinker) 
+[![GitHub top language](https://img.shields.io/github/languages/top/DankDumpster/SkinYoinker)](https://github.com/DankDumpster/SkinYoinker)
+[![GitHub last commit](https://img.shields.io/github/last-commit/DankDumpster/SkinYoinker)](https://github.com/DankDumpster/SkinYoinker)
+[![GitHub language count](https://img.shields.io/github/languages/count/DankDumpster/SkinYoinker)](https://github.com/DankDumpster/SkinYoinker)
 
 ## Usage
 
