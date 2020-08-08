@@ -34,7 +34,6 @@ class Home extends React.Component<any, any> {
     render() {
         return (
             <div className='homeOuterContainer'>
-                <img src={this.state.url} alt='' className='skinImage'/>
                 <Input type='text' value={this.state.value} onChange={this.handleChange} loading={this.loading} onKeyDown={this._handlekeydown}/>
                 <Button onClick={this.searchSkin}>Get link</Button>
                 <SkinRenderer url={this.state.url}/>
