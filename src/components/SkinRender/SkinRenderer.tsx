@@ -14,24 +14,24 @@ export default class SkinRenderer extends React.Component<SkinRendererProps, any
         this.base_url = 'https://cors-anywhere.herokuapp.com/';
     }
 
-
-
     render() {
         return (
             <div className='SkinRendererOuterContainer'>
-
-                <Skinview3d
-                    skinUrl={this.props.url ? this.base_url + this.props.url :  this.state.skinUrl}
-                    className='skinRender'
-                    height='600'
-                    width='600'
-                />
-                <form method="get" action={this.props.url || this.state.skinUrl}>
-                    <Button type='submit'>Download</Button>
-                </form>
+                <div className='SkinRendererInnerContainer'>
+                    <div className='skinRenderContainer'>
+                        <Skinview3d
+                            skinUrl={this.props.url ? this.base_url + this.props.url :  this.state.skinUrl}
+                            className='skinRender'
+                            height='600'
+                            width='600'
+                        />
+                    </div>
+                    <form method="get" action={this.props.url || this.state.skinUrl}>
+                        <Button type='submit'>Download</Button>
+                    </form>
+                </div>
             </div>
         );
     }
-
 }
 
