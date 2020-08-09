@@ -23,11 +23,9 @@ class Home extends React.Component<HomeProps, any> {
 
     searchSkin () {
         this.loading = true;
-        console.time();
         getUserSkinUrl(this.state.value)
             .then(response => this.setState({url: response}))
             .catch(e => alert(e));
-        console.timeEnd();
         this.loading = false;
     }
 
@@ -42,10 +40,21 @@ class Home extends React.Component<HomeProps, any> {
     }
     render() {
         return (
-            <div className='homeOuterContainer'>
-                <Input type='text' value={this.state.value} onChange={this.handleChange} loading={this.loading} onKeyDown={this._handlekeydown}/>
-                <Button onClick={this.searchSkin}>Get skin</Button>
+            <div className='HomeOuterContainer'>
                 <SkinRenderer url={this.state.url}/>
+                <div className='HomeInnerContainer'>
+                    <div className='SearchBarContainer'>
+                        <Input
+                            type='text'
+                            value={this.state.value}
+                            onChange={this.handleChange}
+                            loading={this.loading}
+                            onKeyDown={this._handlekeydown}
+                            className='SearchBar'
+                        />
+                        <Button onClick={this.searchSkin} className='GetSkinButton'>Get skin</Button>
+                    </div>
+                </div>
             </div>
         )
     }
