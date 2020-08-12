@@ -1,5 +1,23 @@
-.skinImage {
-  width: 30%;
-  height: auto;
-  display: block;
+body {
+  background: #1f1b24;
 }
+
+.HomeOuterContainer {
+  text-align: center;
+
+  &.HomeInnerContainer {
+
+    &.SearchBarContainer {
+      width: auto !important;
+      display: grid !important;
+      place-items: center !important;
+
+        &.SearchBar {
+          padding: 10px !important;
+        }
+        &.GetSkinButton {
+          background: black !important;
+        }
+      }
+    }
+  }
